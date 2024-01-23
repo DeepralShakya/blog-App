@@ -3,8 +3,25 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  padding: 2rem;
   min-height: 100vh;
+}
+
+.navbar ul{
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.navbar ul li{
+  margin: 0px 20px;
+  list-style: none;
+  font-weight: bold;
+}
+
+.title{
+  font-size: 30px;
 }
 
 .description {
