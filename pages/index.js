@@ -1,5 +1,4 @@
 import Head from "next/head";
-import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 
 export default function Home() {
@@ -16,6 +15,7 @@ export default function Home() {
           <li>Home</li>
           <li>About</li>
           <li>Contact</li>
+          <li>Blog</li>
         </ul>
       </nav>
       <main className={styles.main}>
