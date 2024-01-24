@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import styles from "@/styles/Home.module.css";
 
 export default function Home() {
@@ -12,10 +13,10 @@ export default function Home() {
       </Head>
       <nav className={styles.navbar}>
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
-          <li>Blog</li>
+          <Link href='/'><a><li>Home</li></a></Link>
+          <Link href='/about'><a><li>About</li></a></Link>
+          <Link href='/contact'><a><li>Contact</li></a></Link>
+          <Link href='/blog'><a><li>Blog</li></a></Link>
         </ul>
       </nav>
       <main className={styles.main}>
